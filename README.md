@@ -1,6 +1,6 @@
 # Modbus TCP Client
 
-Cliente **Modbus TCP** com interface gráfica moderna, feito em Python com [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) e [pyModbusTCP](https://github.com/sourceperl/pyModbusTCP). Pensado para quem trabalha com CLPs, inversores e medidores e precisa ler, escrever e monitorar registradores de forma rápida, no estilo do QModMaster.
+Cliente **Modbus TCP** com interface gráfica moderna, feito em Python com [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) e [pyModbusTCP](https://github.com/sourceperl/pyModbusTCP). Pensado para quem trabalha com CLPs, inversores e medidores e precisa ler, escrever e monitorar registradores de forma rápida.
 
 <!-- Adicione um print da tela em docs/screenshot.png e descomente a linha abaixo -->
 <!-- ![Tela principal](docs/screenshot.png) -->
