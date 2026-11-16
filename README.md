@@ -56,22 +56,6 @@ Os endereços são **base 0**: o registrador 40001 da notação clássica corres
 | 15 | Write Multiple Coils | Escrita |
 | 16 | Write Multiple Registers | Escrita |
 
-## Gerando o executável (.exe)
-
-Com os arquivos `modbus_client_gui.py` e `modbus_icon.ico` na mesma pasta:
-
-```bash
-python -m venv venv_build
-.\venv_build\Scripts\Activate.ps1
-pip install customtkinter pyModbusTCP pyinstaller
-python -m PyInstaller --noconfirm --clean ModbusClient.spec
-```
-
-O executável é criado em `dist/ModbusClient.exe` e roda em outros computadores Windows sem Python instalado.
-
-## Testando sem um CLP
-
-Use um simulador de escravo Modbus TCP, como o **ModbusPal** ou o **diagslave**, e conecte-se em `127.0.0.1`, porta 502.
 
 ## Documentação
 
