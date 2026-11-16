@@ -19,21 +19,15 @@ Cliente **Modbus TCP** com interface gráfica moderna, feito em Python com [Cust
 
 ## Requisitos
 
-- Windows 10 ou 11 (funciona também em outros sistemas com Tkinter)
-- Python **3.10.1 ou superior** (recomendado 3.12)
+- Windows 10 ou 11 / Linux
 
-> O Python 3.10.0 tem um defeito conhecido que faz o PyInstaller falhar ao gerar o executável. Use 3.10.1 ou mais novo.
+## Instalação 
 
-## Instalação e uso
+-Faça download do arquivo executável ModbusClient.exe 
+-Execute o arquivo 
+-Siga os passos descritos no manual em pdf `Manual_Modbus_TCP_Client.pdf` para explorar todos os recursos.
 
-```bash
-git clone https://github.com/<seu-usuario>/<seu-repositorio>.git
-cd <seu-repositorio>
-pip install -r requirements.txt
-python modbus_client_gui.py
-```
 
-Para ver o ícone na janela, mantenha `modbus_icon.ico` na mesma pasta do script.
 
 ### Uso rápido
 
