@@ -55,21 +55,6 @@ Os endereços são **base 0**: o registrador 40001 da notação clássica corres
 
 O manual completo, com todas as opções detalhadas, está em [`Manual_Modbus_TCP_Client.pdf`](Manual_Modbus_TCP_Client.pdf).
 
-## Estrutura do projeto
-
-```
-.
-├── modbus_client_gui.py          # aplicativo
-├── modbus_icon.ico               # ícone do aplicativo e do executável
-├── ModbusClient.spec             # configuração do PyInstaller
-├── requirements.txt              # dependências
-└── Manual_Modbus_TCP_Client.pdf  # manual de utilização
-```
-
-## Licença
-
-Defina a licença do projeto (por exemplo MIT) e adicione o arquivo `LICENSE` ao repositório.
-
 ---
 
 Desenvolvido por Thiago dos Santos Alves, 2026.
